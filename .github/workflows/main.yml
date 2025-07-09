@@ -17,7 +17,6 @@ jobs:
         # uses: Checkmarx/ast-github-action@33a450f2a0ae798ec9546bef50903edacf41c1e7
         uses: Checkmarx/ast-github-action@2.0.4
         with:
-          # Provide the AST portal URL
           base_uri: https://eu.ast.checkmarx.net 
           # Provide the Tenant for AST portal URL
           cx_tenant: dp_wp_account
@@ -32,5 +31,5 @@ jobs:
           # GitHub API Token
           github_token: ${{ secrets.GH_TOKEN }}
           # Additional parameters for AST scan
-          additional_params: "--debug", "-scs-repo-url=https://github.com/Kabacx/Juice-shop"  "-scs-repo-token=ghp_Nf82HMkGBiGqjx3qBiCk2clBpzzYyz1KIU3u" # optional, default is 
+          additional_params: --debug, -scs-repo-url=https://github.com/Kabacx/Juice-shop -scs-repo-token=ghp_Nf82HMkGBiGqjx3qBiCk2clBpzzYyz1KIU3u # optional, default is 
       #END
