@@ -32,5 +32,5 @@ jobs:
           # GitHub API Token
           github_token: ${{ secrets.GH_TOKEN }}
           # Additional parameters for AST scan
-          additional_params: --debug --scs-repo-url "https://github.com/Kabacx/Juice-shop"  --scs-repo-token "ghp_Nf82HMkGBiGqjx3qBiCk2clBpzzYyz1KIU3u" # optional, default is 
+          additional_params: --debug -scs-repo-url "https://github.com/Kabacx/Juice-shop"  -scs-repo-token "ghp_Nf82HMkGBiGqjx3qBiCk2clBpzzYyz1KIU3u" # optional, default is 
       #END
