@@ -31,5 +31,5 @@ jobs:
           # GitHub API Token
           github_token: ${{ secrets.GH_TOKEN }}
           # Additional parameters for AST scan
-          additional_params: --debug --scan-types scs  # optional, default is 
+          additional_params:  "--scan-types scs --scs-engines scorecard --scs-repo-url <insert-url> --scs-repo-token <insert-working-gh-token> --debug"
       #END
