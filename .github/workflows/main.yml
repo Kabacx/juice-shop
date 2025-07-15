@@ -29,8 +29,8 @@ jobs:
           # Branch name
           branch: main
           # GitHub API Token
-          github_token: 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 #${{ secrets.GH_TOKEN }}
+          github_token: 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 #${{ secrets.GH_TOKEN }}
           # Additional parameters for AST scan
-          additional_params:  --scan-types scs --scs-engines scorecard --scs-repo-url https://github.com/Kabacx/juice-shop --scs-repo-token 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 --debug
+          additional_params:  --scan-types scs --scs-engines scorecard --scs-repo-url https://github.com/Kabacx/juice-shop --scs-repo-token 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 --debug
       #END
       
