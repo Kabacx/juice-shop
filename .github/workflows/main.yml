@@ -21,7 +21,7 @@ jobs:
           # Provide the Tenant for AST portal URL
           cx_tenant: dp_wp_account
           # Client ID for AST portal authentication
-          cx_client_id: KB_Github
+          cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           # Secret key for AST portal authentication
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
           # Select a Checkmarx Project Name
