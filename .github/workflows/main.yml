@@ -33,5 +33,5 @@ jobs:
           # Additional parameters for AST scan
           # additional_params:  --scan-types scs --scs-engines scorecard --scs-repo-url https://api.github.com/Kabacx/juice-shop --scs-repo-token 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 --debug
           additional_params:  --scan-types scs --scs-engines scorecard --debug --scs-repo-url https://github.com/Kabacx/juice-shop --scs-repo-token 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
-      #END
+     #END
       
