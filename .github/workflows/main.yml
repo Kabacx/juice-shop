@@ -32,6 +32,6 @@ jobs:
           github_token: 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 #${{ secrets.GH_TOKEN }}
           # Additional parameters for AST scan
           # additional_params:  --scan-types scs --scs-engines scorecard --scs-repo-url https://api.github.com/Kabacx/juice-shop --scs-repo-token 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 --debug
-          additional_params:  --scan-types scs --scs-engines scorecard --debug --scs-repo-url https://github.com/Kabacx/juice-shop --scs-repo-token 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
+          additional_params:  --scan-types scs --scs-engines scorecard --debug --scs-repo-url http://github.com/Kabacx/juice-shop --scs-repo-token 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
      #END
       
