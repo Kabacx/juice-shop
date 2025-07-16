@@ -25,13 +25,13 @@ jobs:
           # Secret key for AST portal authentication
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
           # Select a Checkmarx Project Name
-          project_name: KB_Juice_GitHub_Action # optional, default is ${{ github.repository }}
+          project_name: KB_JShop_GHA_SCS # optional, default is ${{ github.repository }}
           # Branch name
           branch: master
           # GitHub API Token
-          github_token: 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 #${{ secrets.GH_TOKEN }}
+          github_token: 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 #${{ secrets.GH_TOKEN }}
           # Additional parameters for AST scan
           # additional_params:  --scan-types scs --scs-engines scorecard --scs-repo-url https://api.github.com/Kabacx/juice-shop --scs-repo-token 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 --debug
-          additional_params:  --scan-types scs --scs-engines scorecard --debug --scs-repo-url https://github.com/Kabacx/juice-shop --scs-repo-token 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
+          additional_params:  --scan-types scs --scs-engines scorecard --debug --scs-repo-url https://github.com/Kabacx/juice-shop --scs-repo-token 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
      #END
       
